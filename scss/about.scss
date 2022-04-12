@@ -1,0 +1,29 @@
+.content3 {
+    min-height: 640px;
+    background-color: #e0e0d8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    .headshot {
+      height: 300px;
+      width: 300px;
+    }
+  
+    .vl {
+      border-left: 6px solid #544541;
+      height: 500px;
+    }
+  
+    .content3p {
+      font-size: 20px;
+      font-family: CINZEL;
+      color: #202123;
+      width: 500px;
+    }
+    h1 {
+      font-size: 25px;
+      font-family: CINZEL;
+      color: #202123;
+    }
+  }
