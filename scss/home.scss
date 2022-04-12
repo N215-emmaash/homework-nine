@@ -32,17 +32,18 @@
 }
 
 .content2 {
-  min-height: 320px;
+  height: 500px;
   display: flex;
+  align-items: center;
 
   .bleft {
-    width: 50%;
-    height: 320px;
+    min-width: 50%;
+    min-height: 100%;
     background-color: #44312b;
   }
   .bright {
-    width: 50%;
-    height: 320px;
+    min-width: 50%;
+    min-height: 100%;
     background-color: #e0e0d8;
     display: flex;
     justify-content: space-evenly;

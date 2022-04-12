@@ -6,8 +6,8 @@
     justify-content: space-evenly;
   
     .headshot {
-      height: 300px;
-      width: 300px;
+      height: 500px;
+      width: 500px;
     }
   
     .vl {
@@ -17,6 +17,7 @@
   
     .content3p {
       font-size: 20px;
+      text-transform: none;
       font-family: CINZEL;
       color: #202123;
       width: 500px;
@@ -25,5 +26,6 @@
       font-size: 25px;
       font-family: CINZEL;
       color: #202123;
+      text-transform: lowercase;
     }
   }

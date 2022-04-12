@@ -89,17 +89,18 @@ nav a {
 }
 
 .content2 {
-  min-height: 320px;
+  height: 500px;
   display: flex;
+  align-items: center;
 }
 .content2 .bleft {
-  width: 50%;
-  height: 320px;
+  min-width: 50%;
+  min-height: 100%;
   background-color: #44312b;
 }
 .content2 .bright {
-  width: 50%;
-  height: 320px;
+  min-width: 50%;
+  min-height: 100%;
   background-color: #e0e0d8;
   display: flex;
   justify-content: space-evenly;
@@ -113,9 +114,10 @@ nav a {
 
 .content4 {
   background-color: #e0e0d8;
+  width: 100%;
   min-height: 350px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 .content4 .right {
@@ -142,6 +144,9 @@ nav a {
 }
 .body .allred {
   margin-top: 100px;
+  min-height: 500px;
+  max-width: 500px;
+  overflow: hidden;
 }
 .body .redtext {
   margin-top: 100px;
@@ -175,6 +180,65 @@ nav a {
   width: 200px;
 }
 
+.contact {
+  margin: 0 auto;
+  height: 100%;
+  background-color: #e0e0d8;
+}
+
+h3 {
+  margin: 0 auto;
+  color: #44312b;
+  font-size: 30px;
+  font-family: fino-sans, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 5px;
+  padding-top: 100px;
+}
+
+.boxesalign {
+  margin: 0 auto;
+}
+.boxesalign .label {
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.boxesalign .label p {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: fino, serif;
+}
+.boxesalign .label .box {
+  width: 500px;
+  height: 60px;
+  border: 3px solid #ffffff;
+  opacity: 1;
+  border-radius: 60px;
+  background-color: white;
+  margin-top: 20px;
+}
+.boxesalign .submit {
+  margin: 0 auto;
+  width: 210px;
+  height: 75px;
+  border-radius: 71px;
+  background-color: #44312b;
+  border-width: 3px;
+  opacity: 80%;
+  margin-top: 50px;
+  padding: 25px;
+}
+.boxesalign .submit .h4 {
+  color: #e0e0d8;
+  font-size: 20px;
+  text-align: center;
+}
+
 .content3 {
   min-height: 640px;
   background-color: #e0e0d8;
@@ -183,8 +247,8 @@ nav a {
   justify-content: space-evenly;
 }
 .content3 .headshot {
-  height: 300px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
 }
 .content3 .vl {
   border-left: 6px solid #544541;
@@ -192,6 +256,7 @@ nav a {
 }
 .content3 .content3p {
   font-size: 20px;
+  text-transform: none;
   font-family: CINZEL;
   color: #202123;
   width: 500px;
@@ -200,6 +265,7 @@ nav a {
   font-size: 25px;
   font-family: CINZEL;
   color: #202123;
+  text-transform: lowercase;
 }
 
 /*# sourceMappingURL=styles.css.map */
