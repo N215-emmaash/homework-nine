@@ -120,6 +120,27 @@ var contactContent = ` <div class="contact">
 
 export function modelPageName (pgName){
     // console.log(pgName);
+    // $("#app").html(eval(pgName));
 
-    $("#app").html(eval(pgName));
+    if(pgName == "homeContent"){
+      $("nav a").removeClass("blue-text").addClass("white-text");
+      $("nav span").removeClass("white-text").addClass("blue-text");
+    } else{
+      $("nav a").removeClass("white-text").addClass("blue-text");
+      $("nav span").removeClass("blue-text").addClass("white-text");
+    }
+
+    try{
+      eval(pgName);
+      $("#app").html(eval(pgName));
+    } catch (e) {
+      console.log("hello", e);
+    }
+
 }
+
+// if (pgName !== undefined) {
+
+// } else {
+//   console.log("error");
+// }
